@@ -1,0 +1,352 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.header_list {
+  list-style-type: none;
+  margin-left: 134px;
+}
+
+.header_icon {
+  margin-right: 30px;
+  display: inline-block;
+}
+
+.header_link_logo {
+  text-decoration: none;
+  color: black;
+}
+.header_link_logo:hover {
+  color: #1ba3d9;
+}
+
+.header_logo {
+  margin-right: 71px;
+}
+
+.header_menu {
+  margin-right: 134px;
+}
+
+.offer {
+  height: 820px;
+  background: url("../pictures/offer_back_f.png") no-repeat center, url("../pictures/offer_back.jpg") no-repeat center;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.offer_arrow {
+  background: url("../pictures/offer_scroll.png") no-repeat center;
+  width: 28px;
+  height: 18px;
+  margin-bottom: 29px;
+}
+.offer_arrow:hover {
+  background: url("../pictures/offer_scroll_hover.png") no-repeat center;
+}
+
+.album {
+  background: #ffffff;
+  height: 480px;
+  display: flex;
+}
+
+.album_col_1 {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.album_col_2 {
+  background: url("../pictures/main_vinil_back_col_1.png") no-repeat center, url("../pictures/main_vinil_back.jpg") no-repeat center;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.album_zag {
+  font-family: Roboto, sans-serif;
+  font-size: 48px;
+  font-weight: 100;
+  line-height: 0.63;
+  color: #252525;
+  margin-bottom: 29px;
+  margin-left: 135px;
+}
+
+.album_text {
+  width: 430px;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.67;
+  color: #959595;
+  margin-left: 135px;
+  margin-bottom: 59px;
+}
+
+.album_list {
+  list-style: none;
+}
+
+.album_app,
+.album_play {
+  display: inline-block;
+}
+
+.album_app {
+  margin-left: 135px;
+  margin-right: 10px;
+}
+
+.video {
+  background-color: #f0f0f0;
+  display: flex;
+}
+
+.video_col_1,
+.video_col_2 {
+  width: 50%;
+}
+
+.video_play {
+  height: 480px;
+}
+
+.video_col_2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.video_zag {
+  font-family: Roboto, sans-serif;
+  font-size: 48px;
+  font-weight: 100;
+  line-height: 0.63;
+  color: #252525;
+  margin-top: 119px;
+  margin-left: 114px;
+}
+
+.video_text {
+  width: 468px;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.67;
+  color: #959595;
+  margin-top: 18px;
+  margin-left: 114px;
+}
+
+.video_text_link {
+  text-decoration: none;
+}
+
+.video_zag_col_1 {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.71;
+  color: #959595;
+  margin-top: 47px;
+  margin-left: 114px;
+}
+
+.video_list {
+  list-style-type: none;
+  margin-top: 20px;
+  margin-left: 114px;
+}
+
+.video_item {
+  display: inline-block;
+  font-family: RobotoRoman, sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #959595;
+}
+.video_item:hover {
+  color: #1ba3d9;
+}
+.video_item:last-child:after {
+  display: none;
+}
+.video_item:after {
+  content: "I";
+  margin-right: 3px;
+}
+
+.video_list_link {
+  text-decoration: none;
+  color: inherit;
+  margin-right: 3px;
+}
+
+.event {
+  display: flex;
+  background-color: #ffffff;
+  padding-bottom: 120px;
+}
+
+.event_col_1 {
+  list-style-type: none;
+  display: flex;
+  margin-top: 121px;
+  width: 100%;
+}
+
+.event_col_2,
+.event_col_3 {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  margin-right: 152px;
+  align-items: center;
+}
+
+.event_col_3 {
+  align-items: flex-start;
+}
+
+.event_item_col_1 {
+  font-family: Roboto, sans-serif;
+  font-size: 48px;
+  font-weight: 100;
+  line-height: 0.63;
+  text-align: left;
+  color: #252525;
+  margin-bottom: 30px;
+}
+
+.event_item_col_2 {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #959595;
+}
+
+.insta {
+  position: relative;
+}
+
+.insta_back {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.insta_block {
+  background-image: linear-gradient(0deg, rgb(51, 89, 172) 0%, rgb(27, 163, 217) 100%);
+  position: absolute;
+  top: 33%;
+  left: 37%;
+  width: 370px;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.insta_block_link {
+  font-family: Roboto, sans-serif;
+  font-size: 48px;
+  font-weight: 100;
+  line-height: 0.63;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+}
+.insta_block_link:before {
+  content: "";
+  display: block;
+  background: url("../pictures/main_icon_instagram.png") no-repeat center;
+  width: 42px;
+  height: 42px;
+  margin-left: 83px;
+  margin-bottom: 29px;
+}
+.insta_block_link:hover {
+  color: #1ba3d9;
+}
+.insta_block_link:hover:before {
+  background: url("../pictures/main_icon_instagram_hover.png") no-repeat center;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer_col_1 {
+  display: flex;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+.footer_img_link {
+  margin-left: 135px;
+}
+
+.footer_text {
+  margin-left: 64px;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 2.14;
+  color: #959595;
+}
+
+.footer_list {
+  list-style-type: none;
+  margin-right: 140px;
+}
+
+.footer_item {
+  display: inline-block;
+  margin-left: 28px;
+}
+
+.footer_item_link {
+  text-decoration: none;
+  color: #959595;
+}
+.footer_item_link:hover {
+  color: #1ba3d9;
+}
+
+.button_up_link {
+  position: fixed;
+  right: 110px;
+  bottom: 50px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.05);
+  border: 1px solid black;
+  background: url("../pictures/scroll.png") no-repeat center #fff;
+}
+.button_up_link:hover {
+  border: 1px solid #1ba3d9;
+  background: url("../pictures/scroll_hover.png") no-repeat center #fff;
+}/*# sourceMappingURL=style.css.map */
